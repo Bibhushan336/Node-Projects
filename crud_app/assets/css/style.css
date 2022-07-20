@@ -95,13 +95,15 @@ table{
     vertical-align: top;
     text-align: center;
     border-top: 1px solid var(--border);
+    
 }
 
-.table td > a.btn{
+ .table td > a.btn{
     padding: .3em 1em;
     font-size: 1.1em;
     margin: 0 .2em;
-}
+   
+} 
 
 .table tr:hover{
     background-color:#06d6a0 ;
@@ -173,7 +175,7 @@ table{
 }
 
 /* adding style to radio buttons */
-.radio input[type='radio']{
+ .radio input[type='radio']{
     position: absolute;
     opacity: 0;
 }
@@ -229,4 +231,4 @@ table{
 #add_user .form-group .btn:hover{
     background-color: var(--dark);
     color: var(--border);
-}
+}  
